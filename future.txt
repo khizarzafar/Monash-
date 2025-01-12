@@ -1,0 +1,59 @@
+/* Responsive Design */
+@media (max-width: 992px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .change-grid,
+  .affairs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.25rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 1024px) {
+  .center-links {
+    display: none;
+  }
+
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .right-links {
+    display: none;
+  }
+} */
